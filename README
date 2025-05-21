@@ -2,11 +2,10 @@
 
 ## Overview
 
--   [ ] MetaRDK
--   [ ] 2025
+-  Name of the project : MetaRDK
 
 
--   [ ] Brief overview of the tasks in the experiment
+### Brief overview of the tasks in the experiment
 
 MetaRDK is a project aiming to understand the neural correlates of decision making and decision making-related metacognition. Epileptic patient with pharmacology intractable epilepsy performed a perceptual decision making task associated with a confidence judgement task.
 The patients had to decide within a window of 6s if a a cloud of dot displayed at the center of the screen was moving right or left, and provide their answer by moving a computer mouse and clicking on the corresponding right/left target. The difficulty of the task was titrated for all patients at 70% correct using an adaptive staircase.
@@ -14,13 +13,11 @@ After each answer patients were prompted to evaluate how confidence they felt in
 
 All scripts for the task, data processing and analysis are available here  : doi: 10.17605/OSF.IO/2KT97
 
--   [ ] Description of the contents of the dataset
+### Description of the contents of the dataset
 
 This dataset contains the high-gamma content (average power modulation in five non-overlapping frequency bands between 70 and 150Hz) of the patient while they performed the task. The data are segmented, and each segment contain high-gamma activity from trial onset (clicking on the start button) to trial offset (following the confidence judgement response), sampled at 512Hz.
 All information regarding the behavior of the patients (stimulus onset, response time, confidence judgements) are available in the derivative/beh directory as a separated .csv table for each patient.
 
-
--   [ ] Quality assessment of the data
 
 The data provided were screen in order to remove trials and iEEG channels with high epilepsy-related artifact.
 
@@ -41,8 +38,8 @@ The patient sat reclined in their hospital bed, with a laptop and a mouse in fro
 
 ### Task organization
 
--   [ ] The patients first perform a short initial staircase session to titrate difficulty at 70% (the staircase procedure was maintained during the task
--   [ ] The staircase was followed by the main task, corresponding to the data shared in this dataset.
+-   The patients first perform a short initial staircase session to titrate difficulty at 70% (the staircase procedure was maintained during the task
+-   The staircase was followed by the main task, corresponding to the data shared in this dataset.
 
 ### Task details
 
