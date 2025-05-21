@@ -1,6 +1,59 @@
-﻿References
-----------
-Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+﻿Goueytes, D., Gigyer, L., Rouy, M., Hoffmann, D., Minotti, L., Kahane, P., Pereira, M., and Faivre, N. A functional overlap between evidence accumulation, confidence, and changes of mind in the human cortex.
 
-Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7
+## Overview
+
+-   [ ] MetaRDK
+-   [ ] 2025
+
+
+-   [ ] Brief overview of the tasks in the experiment
+
+MetaRDK is a project aiming to understand the neural correlates of decision making and decision making-related metacognition. Epileptic patient with pharmacology intractable epilepsy performed a perceptual decision making task associated with a confidence judgement task.
+The patients had to decide within a window of 6s if a a cloud of dot displayed at the center of the screen was moving right or left, and provide their answer by moving a computer mouse and clicking on the corresponding right/left target. The difficulty of the task was titrated for all patients at 70% correct using an adaptive staircase.
+After each answer patients were prompted to evaluate how confidence they felt in their decision on a scale from 0 to 100 (0 : Sure to be wrong, 50 : answered at random, 100 : Sure to be right
+
+All scripts for the task, data processing and analysis are available here  : doi: 10.17605/OSF.IO/2KT97
+
+-   [ ] Description of the contents of the dataset
+
+This dataset contains the high-gamma content (average power modulation in five non-overlapping frequency bands between 70 and 150Hz) of the patient while they performed the task. The data are segmented, and each segment contain high-gamma activity from trial onset (clicking on the start button) to trial offset (following the confidence judgement response), sampled at 512Hz.
+All information regarding the behavior of the patients (stimulus onset, response time, confidence judgements) are available in the derivative/beh directory as a separated .csv table for each patient.
+
+
+-   [ ] Quality assessment of the data
+
+The data provided were screen in order to remove trials and iEEG channels with high epilepsy-related artifact.
+
+## Methods
+
+### Subjects
+
+All participants were patients with pharmacologically intractable epilepsy.
+
+
+### Apparatus
+
+Recording were performed at the bedside of the patients using a micromed recording system. The implantation schema was decided by the medical team solely based on the medical status of the patients.
+
+### Initial setup
+
+The patient sat reclined in their hospital bed, with a laptop and a mouse in front of them. The task was explained to them, and they were instructed to sample the stimuli as long as required within 6s to form their decision. The confidence judgement scale was explained, and the were explicitly instructed to use the whole confidence scale.
+
+### Task organization
+
+-   [ ] The patients first perform a short initial staircase session to titrate difficulty at 70% (the staircase procedure was maintained during the task
+-   [ ] The staircase was followed by the main task, corresponding to the data shared in this dataset.
+
+### Task details
+
+As much detail as possible about the task and the events that were recorded.
+
+
+### Notes
+
+Any additional information or pointers to information that
+might be helpful to users of the dataset. Include qualitative information
+related to how the data acquisition went.
+
+
 
